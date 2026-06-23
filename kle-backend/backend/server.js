@@ -28,7 +28,7 @@ app.use('/cart',     cartRoutes);     // GET /cart        POST /cart/add     DEL
 app.use('/orders',   orderRoutes);    // POST /orders/place
 
 app.get('/', (req,res)=>{
-    res.send('KLE Ecommerce Backend is Running ');
+    res.send('KLE Ecommerce Backend is Running 🚀');
 })
 
 // ── Start Server ──────────────────────────────────────────────────────────────

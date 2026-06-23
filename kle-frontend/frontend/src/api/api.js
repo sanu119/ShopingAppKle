@@ -1,6 +1,6 @@
 // Simple central place for talking to our backend.
 // Change BASE_URL here if your backend runs on a different port/host.
-export const BASE_URL = "http://localhost:8080";
+export const BASE_URL = "https://shoping-app-kle-cyan.vercel.app/";
 
 // Small helper so every fetch call doesn't have to repeat the same boilerplate.
 // Pass `auth: true` to automatically attach the saved token as a header.
